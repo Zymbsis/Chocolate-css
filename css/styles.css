@@ -245,6 +245,7 @@ img {
   border-radius: 15px;
   border: none;
   background: #fff;
+  min-width: 260px;
 }
 .taste-sensation-item:nth-child(4n + 1) {
   background-color: #fd9222;
@@ -342,6 +343,7 @@ img {
   border: 1px solid rgba(17, 17, 17, 0.1);
   background: #fff;
   text-align: center;
+  min-width: 270px;
 }
 .products-img {
   margin-bottom: 8px;
@@ -371,7 +373,7 @@ img {
   padding: 8px 20px;
   border-radius: 100px;
   border: 1px solid rgba(17, 17, 17, 0.1);
-  background: #fafafa;
+  background-color: #fafafa;
   color: #111;
   font-size: 14px;
   font-weight: 600;
@@ -399,9 +401,11 @@ img {
 .sellers-list {
   display: flex;
   gap: 16px;
+  flex-wrap: wrap;
 }
 .sellers-item {
   flex-basis: calc((100% - 2 * 16px) / 3);
+  min-width: 368px;
 }
 .sellers-img {
 }
